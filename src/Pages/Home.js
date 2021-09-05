@@ -19,59 +19,7 @@ import {useLazyQuery, useQuery} from "@apollo/client";
  
  
  
-#  stop   {
-#   stop(id: "HSL:1130113") {
-#     name
-#       stoptimesWithoutPatterns {
-#       scheduledArrival
-#       realtimeArrival
-#       arrivalDelay
-#       scheduledDeparture
-#       realtimeDeparture
-#       departureDelay
-#       realtime
-#       realtimeState
-#       serviceDay
-#       headsign
-#     }
-#   }  
-# }
 
-
- 
- 
- 
- 
-#  {
-#   stop (id: "HSL:1130113")  {
-#     gtfsId
-#     name
-#     lat
-#     lon
-#     patterns {
-#       code
-#       directionId
-#       headsign
-#       route {
-#         gtfsId
-#         shortName
-#         longName
-#         mode
-#       }
-#     }
-#   }
-# }
- 
- 
- 
-#  routes  {
-#   routes (name: "Pohj. Rautatiekatu") {
-#     gtfsId
-#     shortName
-#     longName
-#     mode
-#     }
-#  }
   
 `; 
 
