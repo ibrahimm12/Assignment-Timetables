@@ -7,7 +7,6 @@ function App() {
 
   const client = new ApolloClient({
      cache: new InMemoryCache(),
-     //uri: "https://graphql-weather-api.herokuapp.com/",
     uri: "https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql",
   });
   return (
